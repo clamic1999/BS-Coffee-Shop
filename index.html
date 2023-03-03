@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS-Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white px-5 fs-2" href="#">Coffee Shop</a>
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav fs-5 me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#About">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#Services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#Hot Coffee">Hot Coffee</a></li>
+            <li><a class="dropdown-item" href="#Cool Coffee">Cool Coffee</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Snacks</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="#Team">Team</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white" href="#Contact">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Coffee..." aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</div>
+</header>
+<main>
+  <section id="Home">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="sec1/coffee_neon_signboard_244162_1280x720.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="sec1/coffee_chocolate_plate_24429_300x168.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="sec1/coffee_cup_pattern_70209_300x168.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </section>
+      <section id="About">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-12 mt-5 mb-5 pt-5">
+                    <h1 class="text-center">About</h1>
+                </div>
+                <div class="row pt-3 pb-3">
+                    <div class="col-md-5">
+                        <h1 class=" pt-3 pb-3 text-center">What do you prefer to know?</h1>
+                        <p class=" pt-3 pb-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore alias deleniti, non similique tempora reiciendis inventore voluptatibus quod amet explicabo. Soluta, voluptas ducimus iusto provident repudiandae nostrum inventore sint eligendi voluptate praesentium dolore? Sequi reiciendis, illum beatae, praesentium corrupti dicta laudantium facilis nostrum assumenda non natus tempore sunt dolorem odio.</p>
+                        <div class="text-center">
+                        <button class="btn btn-primary  pt-3 pb-3 " type="button">Get Now</button>
+                        </div>
+                    </div>
+                    <div class="col-md-7 pt-3 pb-3">
+                        <img src="sec1/home-bg.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section>
+        
+        <div class="card-group text-center" id="Hot Coffee">
+  <div class="card mx-5 pt-5">
+    <img src="sec1/hot.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title fs-1">Hot Coffee</h5>
+      <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at molestiae quis odit possimus nihil, similique excepturi quia aperiam quaerat!</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card mx-5 pt-5">
+    <img src="sec1/cool.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title fs-1">Cool Coffee</h5>
+      <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat sint est accusantium fugiat pariatur necessitatibus totam nesciunt eligendi numquam eaque.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card mx-5 pt-5">
+    <img src="sec1/snacks.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title fs-1">Snacks</h5>
+      <p class="card-text fs-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, quos natus commodi aliquam quas neque. Rem magnam omnis sit placeat.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+
+      </section>
+      <section id="Team">
+        <div class="container text-center">
+          <div class="col-md-12 pt-5 text-center">
+            <h1>Our Team</h1>
+          </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4 pt-4">
+  <div class="col">
+    <div class="card">
+      <img src="sec1/t1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Captain Marvel</h5>
+        <p class="card-text"> Repellendus dolor, enim minima delectus repellat praesentium molestiae illum iste sed autem? This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="sec1/t2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Black widow</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero corporis iste deleniti saepe, quas sit tempora velit hic! Saepe, quia. This is a longer card with supporting text below as a natural lead-in.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="sec1/t3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Iron Man</h5>
+        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil at veniam tempore similique repudiandae ducimus eaque excepturi voluptas atque consequuntur! This is a longer card with supporting.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="sec1/t4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Wonder Women</h5>
+        <p class="card-text"> Eveniet temporibus voluptas aliquid architecto hic libero quibusdam iusto voluptatem odit provident? This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+      </section>
+      <section id="Contact">
+        <div class="container">
+          <div class="row">
+        <div class="col-md-12 text-center mt-5 mb-5 pt-5">
+          <h1>Contact Us</h1>
+        </div>
+      
+    
+          <div class="col-md-6">
+          <img src="sec5/gallery-2.webp" class="img-fluid rounded">
+        </div>
+        
+
+        <div class="col-md-6 mt-5">
+        <form class="row g-3 needs-validation border-5 text-center" novalidate>
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Name</label>
+            <input type="text" class="form-control" id="validationCustom01" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationCustom02" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Email</label>
+            <div class="input-group has-validation">
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Address</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              Please provide a valid Address.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">Your Order's</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>Hot Coffee</option>
+              <option>Cool Coffee</option>
+              <option>Snacks</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a your order.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Mobile No.</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Please provide a valid Mobile No..
+            </div>
+          </div>
+          <div class="col-12">
+            
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+      </div>
+      </section>
+      <footer>
+        <hr><p class="text-center">Copyrights@cafe | All rights Reserved.</p>
+      </footer>
+</main>
+</body>
+</html>
